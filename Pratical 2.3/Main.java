@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main
+{
     public static void main(String[] Args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter the number of items: ");

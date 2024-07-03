@@ -1,6 +1,6 @@
 // Author: Shrey lakhtaria
 // Date: 1 july 2024
-public class Main 
+public class Main4
 {
     public static void main (String[] args) 
     {
