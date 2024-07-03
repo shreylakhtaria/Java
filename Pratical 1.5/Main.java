@@ -1,3 +1,6 @@
+// Author: Shrey lakhtaria
+// Date: 1 july 2024
+
 import java.util.Scanner;
 
 public class Main {
