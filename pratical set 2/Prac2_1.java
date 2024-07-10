@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Prac1 {
+public class Prac2_1{
     static String frontTimes(String str, int num) {
         String newstr = "";
         

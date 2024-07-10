@@ -2,17 +2,17 @@
 //author: Shrey lakhtaria
 import java.util.Scanner;
 
-public class Prac2 {
-    static int array_count9(int arr[]) {
-        int count = 0;
-
-        for(int i = 0; i < arr.length; i++){
-            if(arr[i] == 9) {
-                count++;
+public class Prac2_3 {
+    static boolean array_front9(int arr[]) {
+        
+        for(int i = 0 ; i < arr.length ; i++){
+            if( i<4 && arr[i] == 9) 
+            {
+                return true;
             }
         }
-
-        return count;
+        
+        return false;
     }
     
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class Prac2 {
                 arr[i] = scan.nextInt();
             }
 
-            System.out.println("\'9\' count : " + array_count9(arr));
+            System.out.println("\'9\' in first 4 elements : " + array_front9(arr));
             
             scan.close();
         }

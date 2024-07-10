@@ -1,6 +1,7 @@
 //author: Shrey lakhtaria
 
-public class Prac7 {
+public class Prac2_7 
+{
     public static void main(String[] args) {
         String str = "CHARUSAT University";
 

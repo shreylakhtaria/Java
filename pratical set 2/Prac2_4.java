@@ -2,7 +2,8 @@
 //author: Shrey lakhtaria
 import java.util.Scanner;
 
-public class Prac4 {
+public class Prac2_4 
+{
     static String double_char(String str) {
         String newStr = "";
 

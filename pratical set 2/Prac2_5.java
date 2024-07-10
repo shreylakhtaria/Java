@@ -2,7 +2,7 @@
 //author: Shrey lakhtaria
 import java.util.Scanner;
 
-public class Prac5 {
+public class Prac2_5 {
     public static void main(String[] args) {
         try(Scanner scan = new Scanner(System.in)) {
             System.out.print("Enter the string : ");

@@ -2,7 +2,7 @@
 // Date: 1 july 2024
 import java.util.*;
 
-public class Main2
+public class Main1_2
 {
     public static void main(String[] args){
         int var;

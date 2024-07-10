@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Prac6 {
+public class Prac2_6 {
     static String sortString(String str) {
         char charStr[] = str.toCharArray();
 
