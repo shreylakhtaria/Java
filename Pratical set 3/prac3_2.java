@@ -1,3 +1,4 @@
+//author : Shrey lakhtaria
 import java.util.*;
 
 class TriangleArea {

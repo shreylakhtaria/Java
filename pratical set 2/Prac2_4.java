@@ -1,6 +1,6 @@
 
 //author: Shrey lakhtaria
-import java.util.Scanner;
+    import java.util.*;
 
 public class Prac2_4 
 {
