@@ -1,4 +1,7 @@
+
 //author : shrey akhtaria
+import java.util.*;
+
 class Area {
     int radius;
 
@@ -22,12 +25,11 @@ class Area {
 public class prac3_7 {
     public static void main(String[] args) {
         Area a = new Area(5);
-        System.out.println(a.getRadius());
+        System.out.println(a.getRadius);
         a.setRadius(10);
         System.out.println(a.getRadius());
 
         Area a2 = new Area(a);
         System.out.println(a2.getRadius());
-
     }
 }
