@@ -9,7 +9,8 @@ public class Prac2_5 {
             String newStr = "";
             System.out.print("Output : ");
 
-            for (int i = 0; i < str.length(); i++) {
+            for (int i = 0; i < str.length(); i++) 
+            {
                 newStr = str.charAt(i) + newStr;
 
                 if (Character.isWhitespace(str.charAt(i)) || str.charAt(i) == '.') 

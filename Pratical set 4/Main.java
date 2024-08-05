@@ -31,21 +31,20 @@ class Square extends Rectangle {
     }
 }
 
-public class Prac4_3 {
+
+public class Main {
     public static void main(String[] args) {
-     
+        // Create an array of Rectangle and Square objects
         Rectangle[] shapes = new Rectangle[2];
-        
-        System.out.println("Area and Perimeter of Rectangle");
-        shapes[0] = new Rectangle(4, 8); 
-        shapes[0].printArea();
-        shapes[0].printPerimeter();
-        
-        System.out.println("Area and Perimeter of Square");
+        shapes[0] = new Rectangle(10, 5); // Rectangle object
         shapes[1] = new Square(6); // Square object
-        shapes[1].printArea();
-        shapes[1].printPerimeter();
 
-
+       
+        for (Rectangle shape : shapes) {
+        
+            shape.printArea();
+            shape.printPerimeter();
+            System.out.println();
+        }
     }
 }

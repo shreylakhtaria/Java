@@ -21,7 +21,6 @@ public class Prac2_1{
             int n = scan.nextInt();
 
             System.out.println(frontTimes(str, n)); 
-            
             scan.close();
         }
     }
