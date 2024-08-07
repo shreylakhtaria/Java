@@ -1,5 +1,6 @@
 // Base class Rectangle
-class Rectangle {
+class Rectangle 
+{
     protected double length;
     protected double breadth;
 
@@ -32,9 +33,10 @@ class Square extends Rectangle {
 }
 
 public class Prac4_3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
      
-        Rectangle[] shapes = new Rectangle[2];
+        Rectangle[] shapes = new Rectangle[2]; // ARRAY OF OBJECT.
         
         System.out.println("Area and Perimeter of Rectangle");
         shapes[0] = new Rectangle(4, 8); 
@@ -45,7 +47,10 @@ public class Prac4_3 {
         shapes[1] = new Square(6); // Square object
         shapes[1].printArea();
         shapes[1].printPerimeter();
-
-
+        
+        for (int i = 0; i < shapes.length; i++) {
+            shapes[i].printArea();
+            shapes[i].printPerimeter();
+        }
     }
 }

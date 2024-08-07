@@ -1,4 +1,5 @@
-class Static_class {
+class Static_class 
+{
     static int x = 10;
 }
 
