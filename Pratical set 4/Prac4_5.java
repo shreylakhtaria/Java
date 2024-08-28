@@ -4,6 +4,7 @@ class Degree {
     }
 }
 
+ // here super is ussed to reffer imidate parent class
 class Undergraduate extends Degree {
     public void get_Degree() {
         super.getDegree();
